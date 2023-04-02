@@ -1,0 +1,21 @@
+{
+  "name": "ezito-api-connector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ezito-api-connector"
+  },
+  "author": "Muhammad Ali Aghajanpour , from IR",
+  "license": "ISC",
+  "devDependencies": {
+    "ezito-babel-config": "github:ezitoir/ezito-babel-config"
+  },
+  "dependencies": {
+    "ezito-utils": "github:ezitoir/ezito-utils"
+  }
+}
