@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" ",
-    "preinstall" : "npm install --omit=dev && npm install --only=prod"
+    "preinstall" : "npm install "
   },
   "repository": {
     "type": "git",
