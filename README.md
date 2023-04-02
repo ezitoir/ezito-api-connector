@@ -1,1 +1,3 @@
-# ezito-babel-api-connector
+# ezito-api-connector
+
+## INSTALATION
