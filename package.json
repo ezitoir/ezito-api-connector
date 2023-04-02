@@ -11,11 +11,11 @@
     "url": "ezito-api-connector"
   },
   "author": "Muhammad Ali Aghajanpour , from IR",
-  "license": "ISC",
-  "devDependencies": {
-    "ezito-babel-config": "github:ezitoir/ezito-babel-config"
-  },
+  "license": "ISC", 
   "dependencies": {
     "ezito-utils": "github:ezitoir/ezito-utils"
+  },
+  "devDependencies": {
+    "ezito-babel-config": "github:ezitoir/ezito-babel-config"
   }
 }
