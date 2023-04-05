@@ -4,11 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm --version",
-    "build": "",
-    "preinstall" : "",
-    "install" : "",
-    "prepare" :"",
+    "prepare": "npm --version", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,9 +14,9 @@
   "author": "Muhammad Ali Aghajanpour , from IR",
   "license": "ISC", 
   "dependencies": {
-    "ezito-utils": "github:ezitoir/ezito-utils"
+    "ezito-utils": "^1.0.0"
   },
   "devDependencies": {
-    "ezito-babel-config": "github:ezitoir/ezito-babel-config"
+    "ezito-babel-config": "^1.0.2"
   }
 }
