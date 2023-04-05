@@ -36,7 +36,7 @@
     "ezito-babel-config": "^1.0.2"
   }, 
   "scripts": {
-    "test": "node ./bin/"
+    "test": "node ./bin/test"
   },
   "repository": {
     "type": "git",
