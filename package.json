@@ -17,11 +17,6 @@
     "index.js",
     "lib/"
   ],
-  "scripts": { 
-    "version": "node --version && git add HISTORY.md",
-    "lint": "eslint .",
-    "test": "mkdir b-test"
-  },
   "dependencies": {
     "ezito-utils": "^1.0.0"
   },
@@ -39,5 +34,10 @@
   "homepage": "https://github.com/ezitoir/ezito-api-connector#readme",
   "engines": {
     "node": ">= 10.0.0"
+  },
+  "scripts": { 
+    "version": "node --version && git add HISTORY.md",
+    "lint": "eslint .",
+    "test": "mkdir b-test"
   }
 }
