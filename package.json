@@ -22,7 +22,7 @@
     "build": "",
     "preinstall" : "",
     "install" : "",
-    "prepare" :"npm run test",
+    "prepare" :"npm --version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
