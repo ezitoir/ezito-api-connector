@@ -1,22 +1,45 @@
 {
   "name": "ezito-api-connector",
   "version": "1.0.0",
-  "description": "",
+  "description": "connect api directory to route request",
   "main": "index.js",
+  "author": "Muhammad Ali Aghajanpour , from IR",
+  "license": "ISC",
+  "keyword" : [
+    "express",
+    "request",
+    "api",
+    "restfull"
+  ],
+  "files" : [
+    "README.md",
+    "LICENSE",
+    "index.js",
+    "lib/"
+  ],
   "scripts": {
-    "prepare": "npm --version", 
+    "postinstall": "npm --version",
+    "build": "",
+    "preinstall" : "",
+    "install" : "",
+    "prepare" :"npm run test",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "ezito-api-connector"
-  },
-  "author": "Muhammad Ali Aghajanpour , from IR",
-  "license": "ISC", 
   "dependencies": {
     "ezito-utils": "^1.0.0"
   },
   "devDependencies": {
     "ezito-babel-config": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezitoir/ezito-api-connector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ezitoir/ezito-api-connector/issues"
+  },
+  "homepage": "https://github.com/ezitoir/ezito-api-connector#readme",
+  "engines": {
+    "node": ">= 10.0.0"
   }
 }
