@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "connect api directory to route request",
   "main": "index.js",
-  "author": "Muhammad Ali Aghajanpour , from IR",
+  "author": "Muhammad Ali Aghajanpour <mhmrasoul@gmail.com>",
   "license": "ISC",
   "keyword" : [
     "express",
@@ -18,20 +18,25 @@
     "app",
     "api"
   ],
+  "bin" : {
+    "eac" : "./bin/eac",
+    "test" : "./bin/test"
+  }, 
   "files" : [
     "README.md",
     "LICENSE",
     "index.js",
-    "lib/"
+    "lib/*",
+    "bin/*"
   ], 
   "dependencies": {
     "ezito-utils": "^1.0.0"
   },
   "devDependencies": {
-    "ezito-babel-config": "^1.0.2" 
+    "ezito-babel-config": "^1.0.2"
   }, 
   "scripts": {
-    "test": "node --version"
+    "test": "node ./bin/"
   },
   "repository": {
     "type": "git",
