@@ -17,12 +17,8 @@
     "index.js",
     "lib/"
   ],
-  "scripts": {
-    "postinstall": "npm --version",
-    "build": "",
-    "preinstall" : "",
-    "install" : "",
-    "prepare" :"npm --version",
+  "scripts": { 
+    "prepare" :"cd node_modules/ezito-api-connector && npm install --only=dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
