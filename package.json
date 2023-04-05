@@ -10,6 +10,13 @@
     "request",
     "api",
     "restfull"
+    "web",
+    "http",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api"
   ],
   "files" : [
     "README.md",
