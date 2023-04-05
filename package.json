@@ -19,15 +19,15 @@
   ],
   "scripts": { 
     "version": "node --version && git add HISTORY.md",
-    "lint": "mkdir a-test",
-    "test": "mkdir b-test",
-    "test" :"cd node_modules/ezito-api-connector && npm install --only=dev" 
+    "lint": "eslint .",
+    "test": "mkdir b-test"
   },
   "dependencies": {
     "ezito-utils": "^1.0.0"
   },
   "devDependencies": {
-    "ezito-babel-config": "^1.0.2"
+    "ezito-babel-config": "^1.0.2",
+    "eslint": "8.34.0"
   },
   "repository": {
     "type": "git",
