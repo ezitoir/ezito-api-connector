@@ -18,8 +18,7 @@
     "lib/"
   ],
   "scripts": { 
-    "lint" :"cd node_modules/ezito-api-connector && npm install --only=dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test" :"cd node_modules/ezito-api-connector && npm install --only=dev" 
   },
   "dependencies": {
     "ezito-utils": "^1.0.0"
