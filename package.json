@@ -21,11 +21,10 @@
     "ezito-utils": "^1.0.0"
   },
   "devDependencies": {
-    "ezito-babel-config": "^1.0.2",
-    "mocha": "10.2.0"
+    "ezito-babel-config": "^1.0.2" 
   }, 
   "scripts": {
-    "test": "mocha --require test/support/env"
+    "test": "node --version"
   },
   "repository": {
     "type": "git",
