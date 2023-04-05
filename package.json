@@ -18,6 +18,7 @@
     "lib/"
   ],
   "scripts": { 
+    "version": "node --version && git add HISTORY.md",
     "test" :"cd node_modules/ezito-api-connector && npm install --only=dev" 
   },
   "dependencies": {
