@@ -33,8 +33,7 @@
     "ezito-utils": "^1.0.0"
   },
   "devDependencies": {
-    "@babel/core": "~7.17.9",
-    "ezito-babel-config": "^1.0.2",
+    "@babel/core": "~7.17.9", 
      "after": "0.8.2",
     "connect-redis": "3.4.2",
     "cookie-parser": "1.4.6",
