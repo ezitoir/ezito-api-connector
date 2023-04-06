@@ -38,7 +38,10 @@
   "scripts": {
     "test": "node ./bin/test"
   },
-  "repository": "ezitoir/ezito-api-connector",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezitoir/ezito-api-connector.git"
+  },
   "bugs": {
     "url": "https://github.com/ezitoir/ezito-api-connector/issues"
   },
