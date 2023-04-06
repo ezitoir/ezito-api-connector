@@ -54,7 +54,11 @@
     "vhost": "~3.0.2"
   }, 
   "scripts": {
-    "test": "mocha --require test/env --reporter spec --bail --check-leaks test/"
+    "lint": "eslint .",
+    "test": "mocha --require test/env --reporter spec --bail --check-leaks test/",
+    "test-ci": "nyc --reporter=lcovonly --reporter=text npm test",
+    "test-cov": "nyc --reporter=html --reporter=text npm test",
+    "test-tap": "mocha --require test/env --reporter tap --check-leaks test/"
   },
   "repository": {
     "type": "git",
